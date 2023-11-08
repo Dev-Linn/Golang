@@ -13,7 +13,6 @@ func calc(n1, n2 int8) (int8, int8) {
 	return adicao, sub
 }
 
-
 func main() {
 	soma := somar(10, 20)
 	fmt.Println(soma)
@@ -22,7 +21,7 @@ func main() {
 		fmt.Println(txt)
 
 		return txt
-		
+
 	}
 
 	retorno := a("Texto da função 1")
@@ -32,4 +31,5 @@ func main() {
 	resultadosSoma, resultadoSub := calc(10, 16)
 	fmt.Println(resultadosSoma, resultadoSub)
 
+	//teo
 }
